@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo"
+          ><i class="fas fa-bars-staggered"></i> JobHunt.</a
+        >
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="jobs.html">All Jobs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn">Post Jobs</a>
+      </section>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h1 id="welcome-message">Welcome Abhinav</h1>
+        <p>Find the best jobs for yourself based on your skills.</p>
+        <div class="searchbox">
+          <input
+            type="text"
+            placeholder="Search your job"
+            class="search-btn"
+            list="job-suggestions"
+            id="jobInput"
+          />
+          <datalist id="job-suggestions"></datalist>
+          <a href="#" class="btn" id="search-submit">Search Jobs</a>
+        </div>
+        <div class="card-box">
+          <h1 id="card-heading">Job Details</h1>
+          <div class="card-description">
+            <p id="card-name">
+              <strong>Name of the Job:</strong>
+              <span id="job-name">Software Engineer</span>
+            </p>
+            <p>
+              <strong>Salary:</strong>
+              <span id="salary-1">$80,000 - $120,000</span>
+            </p>
+            <p>
+              <strong>Location:</strong>
+              <span id="location-1">New York, NY</span>
+            </p>
+            <p>
+              <strong>Skills:</strong>
+              <span id="skills-1">JavaScript, React, Node.js</span>
+            </p>
+            <p>
+              <strong>Experience:</strong>
+              <span id="experience-1">3+ years</span>
+            </p>
+          </div>
+        </div>
+
+       <div class="apply-here">
+        <a href="form.html" class="btn">Apply here</a>
+       </div>
+
+        <section class="recentjobs">
+          <h1 id="recentjobs-heading">Recent Jobs</h1>
+          <div class="recentjobs-cardbox">
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong> <span>Network Engineer</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹600,000 - ₹1,100,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Pune</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>Cisco, Networking, Firewalls</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>2-4 years</span>
+              </p>
+            </div>
+
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong> <span>Product Manager</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹1,000,000 - ₹1,800,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Delhi</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>Agile, Market Research, Product Lifecycle</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>4-7 years</span>
+              </p>
+            </div>
+
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong>
+                <span>Technical Support Engineer</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹400,000 - ₹800,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Bangalore</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>Customer Support, Troubleshooting, Networking</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>1-3 years</span>
+              </p>
+            </div>
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong>
+                <span>Blockchain Developer</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹1,000,000 - ₹2,000,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Mumbai</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>Ethereum, Solidity, Smart Contracts</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>2-5 years</span>
+              </p>
+            </div>
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong> <span>SEO Specialist</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹400,000 - ₹800,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Delhi</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>SEO Tools, Keyword Research, Analytics</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>1-3 years</span>
+              </p>
+            </div>
+            <div class="card-recentjob">
+              <p>
+                <strong>Name of the Job:</strong> <span>Technical Writer</span>
+              </p>
+              <p>
+                <strong>Salary:</strong>
+                <span>₹400,000 - ₹800,000</span>
+              </p>
+              <p>
+                <strong>Location:</strong>
+                <span>Bangalore</span>
+              </p>
+              <p>
+                <strong>Skills:</strong>
+                <span>Documentation, Technical Knowledge, Communication</span>
+              </p>
+              <p>
+                <strong>Experience:</strong>
+                <span>2-4 years</span>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="Experience-section">
+          <h1 id="experience-heading">Experience with JobHunt</h1>
+          <div class="experience-cardbox">
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Amelia Green</h2>
+              <p>
+                Conducted data-driven insights for JobHunt's user trends,
+                identifying areas for user retention improvement, which
+                contributed to a 25% increase in monthly active users.
+              </p>
+            </div>
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Ethan Reynolds</h2>
+              <p>
+                Supported job seekers by troubleshooting account issues, guiding
+                profile optimizations, and enhancing user experience, resulting
+                in a 20% increase in profile engagement on JobHunt.
+              </p>
+            </div>
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Sophia Carter</h2>
+              <p>
+                Analyzed candidate profiles and job listings to improve the
+                accuracy of job recommendations, increasing successful matches
+                by 30% and boosting user satisfaction rates.
+              </p>
+            </div>
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Liam Foster</h2>
+              <p>
+                Created engaging, informative job-seeking guides and resources,
+                empowering users with actionable career advice, leading to a 40%
+                increase in user interaction on JobHunt's blog.
+              </p>
+            </div>
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Chloe Mitchell</h2>
+              <p>
+                Developed and managed JobHunt's social media strategy, growing
+                follower base by 50% through targeted campaigns and increasing
+                website traffic via platform engagement.
+              </p>
+            </div>
+            <div class="experience-card">
+              <img src="person-icon.webp" id="experience-img" />
+              <h2>Jackson Hayes</h2>
+              <p>
+                Redesigned JobHunt's user interface to enhance navigation and
+                accessibility, resulting in a smoother user experience and a 35%
+                increase in daily active sessions.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="review-section">
+          <h1 id="review-heading">Voice of the People</h1>
+          <div class="review-cardbox">
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Olivia Parker</h2>
+              <p>
+                JobHunt made my job search so much easier! The recommended jobs
+                were a perfect match, and I got hired within a month. Highly
+                recommend!
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Mason Bennett</h2>
+              <p>
+                The interface is clean and easy to navigate. I especially love
+                the personalized job alerts-they saved me so much time!
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Ayaan Malik</h2>
+              <p>
+                Great experience with JobHunt. The application tracking feature
+                was really helpful in keeping me organized and on top of my
+                applications.
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Mira Patel</h2>
+              <p>
+                I found my dream job on JobHunt! The advanced search filters
+                helped me find roles that matched my exact skills and location.
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Arjun Sharma</h2>
+              <p>
+                JobHunt's resume tips and interview guides were incredibly
+                helpful. They helped me polish my profile and land more
+                interviews. Fantastic resource!
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Hiroshi Tanaka</h2>
+              <p>
+                Decent platform for job searching, but I wish there were more
+                remote job options available. Overall, it's been useful for my
+                job hunt.
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Sana Iqbal</h2>
+              <p>
+                I loved the mobile app experience! Super convenient to apply to
+                jobs on the go. JobHunt has definitely streamlined the job
+                search process.
+              </p>
+            </div>
+            <div class="review-card">
+              <img src="peoplec-icon-2.png" id="review-img" />
+              <h2>Akira Chen</h2>
+              <p>
+                JobHunt's customer support was very responsive when I had an
+                issue. They helped resolve it quickly, which I really
+                appreciated. Good service!
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <section class="blank">
+
+    </section>
+
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <!-- left part -->
+        <div class="news-left">
+          <img src="new-random-image.jpg" alt="Image" />
+        </div>
+        <!-- right part -->
+        <div class="news-right">
+          <div class="news-info">
+            <h2 class="news-title">Get the latest updates</h2>
+            <p class="news-desc">Sign up for our newsletter</p>
+          </div>
+
+          <form class="news-form">
+            <input class="news-email" placeholder="Email" />
+            <button class="news-send-button">Send</button>
+          </form>
+          <div class="privacy-policy">
+            By signing up to our newsletter you agree to our
+            <a href="" class="news-link">Terms of Service</a>
+            and
+            <a href="" class="news-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h2>About JobHunt</h2>
+          <p>
+            JobHunt is committed to connecting job seekers with top employers
+            worldwide. Our platform empowers users with tools and resources for
+            a successful career journey. Discover, apply, and succeed with us!
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h2>Contact Us</h2>
+          <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+          <p><i class="fas fa-envelope"></i> support@jobhunt.com</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 1234 JobHunt Lane, New York,
+            NY
+          </p>
+        </div>
+
+        <div class="footer-social">
+          <h2>Follow Us</h2>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i><span id="social-chain">Follow us on Facebook</span></a>
+            <a href="#"><i class="fab fa-twitter"></i><span id="social-chain">Follow us on X</span></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i><span id="social-chain">Connect with us on LinkedIn</span></a>
+            <a href="#"><i class="fab fa-instagram"></i><span id="social-chain">Join us at Instagram</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 JobHunt. All rights reserved. | Designed for your career
+          success.
+        </p>
+      </div>
+    </footer>
+
+    <script src="list.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

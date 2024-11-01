@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Portal</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Job Application Form</h1>
+      <form id="applicationForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="contact">Contact Number:</label>
+          <input type="tel" id="contact" required />
+        </div>
+
+        <div class="form-group">
+          <label for="skills">Skills:</label>
+          <input
+            type="text"
+            id="skills"
+            placeholder="e.g. JavaScript, HTML, CSS"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="education">Education:</label>
+          <input type="text" id="education" required />
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Upload Resume:</label>
+          <input type="file" id="resume" accept=".pdf,.doc,.docx" required />
+        </div>
+
+        <div class="form-group">
+          <label for="pastCompanies">Past Companies:</label>
+          <input
+            type="text"
+            id="pastCompanies"
+            placeholder="e.g. Company A, Company B"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="experience">Experience:</label>
+          <textarea id="experience" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="questions">Any Questions:</label>
+          <textarea id="questions" rows="2"></textarea>
+        </div>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
